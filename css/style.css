@@ -14,51 +14,43 @@ html{
     --dark-gray: hsl(0, 0%, 59%);
 }
 
-body #content::before{
-    content: '';
-    background-image: url("/images/bg-pattern-top.svg");
-    background-repeat: no-repeat;
 
-    width: 100%;
-    height: 100%;
-
-    position: absolute;
-    transform: rotate(90deg);
-}
 
 #content {
     width: 100vw;
     height: 100vh;
-
+    
     display: flex;
     align-items: center;
     justify-content: center;
 
     background-color: var(--dark-cyan); 
 
-    position: absolute;
+    overflow: hidden;
 }
 
-/* body #content::after{
-    content: '';
-    background-image: url("/images/bg-pattern-bottom.svg");
-    background-repeat: no-repeat;
+.bg-top{
+    position: relative;
+    bottom: 38rem;
+    left: -2.5rem;
+}
 
-    width: 100%;
-    height: 100%;
-
-    position: absolute;
-} */
+.bg-bottom{
+    position: relative;
+    top: 50.2rem;
+    right: 2.5rem;
+}
 
 .card{
+    position: absolute;
+
     width: 35rem;
     height: 37.5rem;
 
     background: #FFF;
-
     border-radius: 1.5rem;
 
-    box-shadow: 10px 10px 42px 13px rgba(0,0,0,0.1)
+    box-shadow: 2px 40px 60px 29px rgb(0 0 0 / 11%);
 }
 
 .card h2,
@@ -101,6 +93,7 @@ body #content::before{
 .card .block-bottom .age,
 .card .block-bottom .city{
     color: var(--dark-gray);
+    font-weight: 400;
 }
 
 .card .block-bottom .city{
