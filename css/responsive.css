@@ -1,5 +1,16 @@
 @media (max-width: 480px) {
-    .content {
-        padding: 0 2rem;
+    .attribution{
+        display: flex;
+        flex-direction: column;
+        line-height: 2rem;
+    }
+}
+
+@media (max-width: 380px) {
+    .card{
+        width: 90%;
+    }
+    .attribution{
+        padding-top: 7rem;
     }
 }

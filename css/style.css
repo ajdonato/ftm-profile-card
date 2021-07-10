@@ -132,3 +132,19 @@ html{
     font-size: .9rem;
 }
 
+.attribution { 
+    font-size: 1.5rem; 
+    font-weight: 700;
+
+    text-align: center; 
+    margin-top: -14rem;
+
+    color: #000;
+
+    position: relative;
+}
+.attribution a { 
+    color: var(--very-dark-desaturated-blue);
+    text-decoration: none; 
+}
+
