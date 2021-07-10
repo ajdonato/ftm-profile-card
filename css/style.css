@@ -61,7 +61,7 @@ html{
 }
 
 .card .block-top{
-    background: url("/images/bg-pattern-card.svg") no-repeat center;
+    background: url("./images/bg-pattern-card.svg") no-repeat center;
     height: 14rem;
 
     border-radius: 1.5rem 1.5rem 0 0;
